@@ -1,12 +1,269 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>ChatbotPro | Automatiza tu negocio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Bienvenido a Git & Github</h1>
-    <p>En esta landing encontraras mis serviso de chatbots</p>
+
+<body class="bg-gray-950 text-white">
+
+    <!-- NAVBAR -->
+    <header class="bg-gray-900">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center p-6">
+            <h1 class="text-2xl font-bold text-blue-400">
+                ChatbotPro
+            </h1>
+
+            <div class="space-x-6 hidden md:block">
+                <a href="#inicio" class="hover:text-blue-400">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-400">Servicios</a>
+                <a href="#precios" class="hover:text-blue-400">Precios</a>
+            </div>
+
+            <a href="#precios"
+               class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg">
+                Contratar
+            </a>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section id="inicio" class="text-center py-24 px-6">
+
+        <span class="text-blue-400 font-semibold">
+            INTELIGENCIA ARTIFICIAL PARA TU NEGOCIO
+        </span>
+
+        <h2 class="text-4xl md:text-6xl font-bold mt-5">
+            Automatiza tu negocio
+            <span class="text-blue-400">con chatbots</span>
+        </h2>
+
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto mt-6">
+            Creamos chatbots inteligentes para atender clientes,
+            responder preguntas y aumentar las ventas de tu empresa.
+        </p>
+
+        <a href="#precios"
+           class="inline-block mt-8 bg-blue-600 hover:bg-blue-700
+                  px-8 py-3 rounded-lg font-semibold">
+            Ver planes y precios
+        </a>
+
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="bg-gray-900 py-20 px-6">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-12">
+                Nuestros servicios
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="text-xl font-bold mb-3">
+                        Chatbots inteligentes
+                    </h3>
+                    <p class="text-gray-400">
+                        Automatiza las respuestas frecuentes y brinda
+                        atención a tus clientes.
+                    </p>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="text-4xl mb-4">💬</div>
+                    <h3 class="text-xl font-bold mb-3">
+                        Atención al cliente
+                    </h3>
+                    <p class="text-gray-400">
+                        Mejora la comunicación con tus clientes mediante
+                        respuestas rápidas y organizadas.
+                    </p>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-xl font-bold mb-3">
+                        Automatización de ventas
+                    </h3>
+                    <p class="text-gray-400">
+                        Captura oportunidades comerciales y ayuda a tus
+                        clientes a encontrar tus productos.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section id="precios" class="py-20 px-6">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-3xl md:text-4xl font-bold text-center">
+                Planes y precios
+            </h2>
+
+            <p class="text-gray-400 text-center mt-4 mb-12">
+                Elige el plan ideal para automatizar tu negocio.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- PLAN BASICO -->
+                <div class="bg-gray-900 border border-gray-700
+                            p-8 rounded-2xl">
+
+                    <h3 class="text-xl font-bold">Básico</h3>
+
+                    <p class="text-gray-400 mt-2">
+                        Ideal para pequeños negocios.
+                    </p>
+
+                    <p class="text-4xl font-bold mt-6">
+                        Bs 199
+                        <span class="text-sm text-gray-400 font-normal">
+                            /mes
+                        </span>
+                    </p>
+
+                    <ul class="mt-8 space-y-4 text-gray-300">
+                        <li>✓ Chatbot de preguntas frecuentes</li>
+                        <li>✓ Configuración inicial</li>
+                        <li>✓ Atención automatizada básica</li>
+                        <li>✓ Soporte por correo</li>
+                    </ul>
+
+                    <a href="mailto:ventas@chatbotpro.com"
+                       class="block text-center mt-8 border
+                              border-blue-500 text-blue-400
+                              hover:bg-blue-600 hover:text-white
+                              py-3 rounded-lg">
+                        Elegir plan
+                    </a>
+
+                </div>
+
+                <!-- PLAN PROFESIONAL -->
+                <div class="bg-gray-900 border-2 border-blue-500
+                            p-8 rounded-2xl relative shadow-xl">
+
+                    <span class="absolute -top-4 left-1/2
+                                 -translate-x-1/2 bg-blue-600
+                                 px-4 py-1 rounded-full text-sm">
+                        Más popular
+                    </span>
+
+                    <h3 class="text-xl font-bold">Profesional</h3>
+
+                    <p class="text-gray-400 mt-2">
+                        Para empresas en crecimiento.
+                    </p>
+
+                    <p class="text-4xl font-bold mt-6">
+                        Bs 399
+                        <span class="text-sm text-gray-400 font-normal">
+                            /mes
+                        </span>
+                    </p>
+
+                    <ul class="mt-8 space-y-4 text-gray-300">
+                        <li>✓ Todo lo incluido en Básico</li>
+                        <li>✓ Flujos de conversación personalizados</li>
+                        <li>✓ Captura de clientes potenciales</li>
+                        <li>✓ Integración con formularios</li>
+                        <li>✓ Soporte prioritario</li>
+                    </ul>
+
+                    <a href="mailto:ventas@chatbotpro.com"
+                       class="block text-center mt-8 bg-blue-600
+                              hover:bg-blue-700 py-3 rounded-lg
+                              font-semibold">
+                        Elegir plan
+                    </a>
+
+                </div>
+
+                <!-- PLAN EMPRESARIAL -->
+                <div class="bg-gray-900 border border-gray-700
+                            p-8 rounded-2xl">
+
+                    <h3 class="text-xl font-bold">Empresarial</h3>
+
+                    <p class="text-gray-400 mt-2">
+                        Para empresas con necesidades avanzadas.
+                    </p>
+
+                    <p class="text-4xl font-bold mt-6">
+                        Bs 799
+                        <span class="text-sm text-gray-400 font-normal">
+                            /mes
+                        </span>
+                    </p>
+
+                    <ul class="mt-8 space-y-4 text-gray-300">
+                        <li>✓ Todo lo incluido en Profesional</li>
+                        <li>✓ Flujos avanzados de conversación</li>
+                        <li>✓ Integraciones personalizadas</li>
+                        <li>✓ Reportes de rendimiento</li>
+                        <li>✓ Asesoramiento especializado</li>
+                    </ul>
+
+                    <a href="mailto:ventas@chatbotpro.com"
+                       class="block text-center mt-8 border
+                              border-blue-500 text-blue-400
+                              hover:bg-blue-600 hover:text-white
+                              py-3 rounded-lg">
+                        Contactar ventas
+                    </a>
+
+                </div>
+
+            </div>
+
+            <p class="text-gray-500 text-sm text-center mt-8">
+                Precios ilustrativos en bolivianos. Los servicios,
+                límites y costos finales deben confirmarse antes de contratar.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="bg-blue-700 text-center py-16 px-6">
+
+        <h2 class="text-3xl font-bold">
+            ¿Listo para automatizar tu negocio?
+        </h2>
+
+        <p class="mt-4 text-blue-100">
+            Encuentra el chatbot ideal para tu empresa.
+        </p>
+
+        <a href="mailto:ventas@chatbotpro.com"
+           class="inline-block mt-8 bg-white text-blue-700
+                  hover:bg-gray-200 px-8 py-3 rounded-lg font-bold">
+            Solicitar información
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-950 text-center text-gray-500 py-6">
+        <p>&copy; 2026 ChatbotPro. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
+```
