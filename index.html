@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ChatbotPro | Automatiza tu negocio</title>
+    <title>ChatbotPro | Soluciones inteligentes para tu negocio</title>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,108 +13,202 @@
 
 <body class="bg-gray-950 text-white">
 
-    <!-- ================= NAVBAR ================= -->
-    <header class="bg-gray-900">
+    <!-- ================================================== -->
+    <!-- NAVBAR / MENÚ DE NAVEGACIÓN -->
+    <!-- ================================================== -->
+
+    <header class="bg-gray-900 border-b border-gray-800">
+
         <nav class="max-w-7xl mx-auto flex justify-between items-center p-6">
 
             <a href="#inicio" class="text-2xl font-bold text-blue-400">
                 ChatbotPro
             </a>
 
-            <div class="space-x-5 hidden md:flex">
-                <a href="#inicio" class="hover:text-blue-400">Inicio</a>
-                <a href="#servicios" class="hover:text-blue-400">Servicios</a>
-                <a href="#galeria" class="hover:text-blue-400">Galería</a>
-                <a href="#precios" class="hover:text-blue-400">Precios</a>
-                <a href="#contacto" class="hover:text-blue-400">Contacto</a>
+            <!-- Menú para computadoras -->
+            <div class="hidden lg:flex items-center space-x-5 text-sm">
+
+                <a href="#inicio" class="hover:text-blue-400 transition">
+                    Inicio
+                </a>
+
+                <a href="#servicios" class="hover:text-blue-400 transition">
+                    Servicios
+                </a>
+
+                <a href="#galeria" class="hover:text-blue-400 transition">
+                    Galería
+                </a>
+
+                <a href="#precios" class="hover:text-blue-400 transition">
+                    Precios
+                </a>
+
+                <a href="#canvas" class="hover:text-blue-400 transition">
+                    Modelo Canvas
+                </a>
+
+                <a href="#contacto" class="hover:text-blue-400 transition">
+                    Contacto
+                </a>
+
             </div>
 
             <a href="#precios"
-               class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg">
+               class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg font-semibold transition">
                 Contratar
             </a>
 
         </nav>
+
     </header>
 
 
-    <!-- ================= INICIO ================= -->
+    <!-- ================================================== -->
+    <!-- 1. SECCIÓN INICIO -->
+    <!-- ================================================== -->
+
     <section id="inicio" class="text-center py-24 px-6">
 
-        <span class="text-blue-400 font-semibold">
+        <span class="text-blue-400 font-semibold tracking-widest text-sm">
             INTELIGENCIA ARTIFICIAL PARA TU NEGOCIO
         </span>
 
-        <h1 class="text-4xl md:text-6xl font-bold mt-5">
+        <h1 class="text-4xl md:text-6xl font-bold mt-5 leading-tight">
+
             Automatiza tu negocio
-            <span class="text-blue-400">con chatbots</span>
+
+            <span class="text-blue-400">
+                con chatbots
+            </span>
+
         </h1>
 
-        <p class="text-gray-400 text-lg max-w-2xl mx-auto mt-6">
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto mt-6 leading-relaxed">
+
             Creamos chatbots inteligentes para atender clientes,
-            responder preguntas y aumentar las ventas de tu empresa.
+            responder preguntas frecuentes y ayudarte a mejorar
+            la comunicación y las ventas de tu empresa.
+
         </p>
 
-        <a href="#precios"
-           class="inline-block mt-8 bg-blue-600 hover:bg-blue-700
-                  px-8 py-3 rounded-lg font-semibold">
-            Ver planes y precios
-        </a>
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
 
-    </section>
+            <a href="#precios"
+               class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition">
 
+                Ver planes y precios
 
-    <!-- ================= SERVICIOS ================= -->
-    <section id="servicios" class="bg-gray-900 py-20 px-6">
+            </a>
 
-        <div class="max-w-6xl mx-auto">
+            <a href="#servicios"
+               class="border border-gray-600 hover:border-blue-400 px-8 py-3 rounded-lg transition">
 
-            <h2 class="text-3xl font-bold text-center mb-12">
-                Nuestros servicios
-            </h2>
+                Explorar servicios
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            </a>
 
-                <div class="bg-gray-800 p-8 rounded-xl">
-                    <div class="text-4xl mb-4">🤖</div>
-                    <h3 class="text-xl font-bold mb-3">
-                        Chatbots inteligentes
-                    </h3>
-                    <p class="text-gray-400">
-                        Automatiza las respuestas frecuentes y brinda
-                        atención a tus clientes.
-                    </p>
-                </div>
-
-                <div class="bg-gray-800 p-8 rounded-xl">
-                    <div class="text-4xl mb-4">💬</div>
-                    <h3 class="text-xl font-bold mb-3">
-                        Atención al cliente
-                    </h3>
-                    <p class="text-gray-400">
-                        Mejora la comunicación con tus clientes mediante
-                        respuestas rápidas y organizadas.
-                    </p>
-                </div>
-
-                <div class="bg-gray-800 p-8 rounded-xl">
-                    <div class="text-4xl mb-4">📈</div>
-                    <h3 class="text-xl font-bold mb-3">
-                        Automatización de ventas
-                    </h3>
-                    <p class="text-gray-400">
-                        Captura oportunidades comerciales y ayuda a tus
-                        clientes a encontrar tus productos.
-                    </p>
-                </div>
-
-            </div>
         </div>
 
     </section>
 
 
-    <!-- ================= GALERÍA ================= -->
+    <!-- ================================================== -->
+    <!-- 2. SECCIÓN SERVICIOS -->
+    <!-- ================================================== -->
+
+    <section id="servicios" class="bg-gray-900 py-20 px-6">
+
+        <div class="max-w-6xl mx-auto">
+
+            <div class="text-center mb-12">
+
+                <span class="text-blue-400 font-semibold">
+                    LO QUE OFRECEMOS
+                </span>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-3">
+                    Nuestros servicios
+                </h2>
+
+                <p class="text-gray-400 mt-4">
+                    Soluciones digitales para negocios modernos.
+                </p>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Servicio 1 -->
+
+                <article class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-blue-500 transition">
+
+                    <div class="text-4xl mb-4">
+                        🤖
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Chatbots inteligentes
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Automatiza las respuestas frecuentes y ayuda
+                        a tus clientes a encontrar información rápidamente.
+                    </p>
+
+                </article>
+
+
+                <!-- Servicio 2 -->
+
+                <article class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-blue-500 transition">
+
+                    <div class="text-4xl mb-4">
+                        💬
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Atención al cliente
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Mejora la comunicación con tus clientes mediante
+                        respuestas rápidas y conversaciones organizadas.
+                    </p>
+
+                </article>
+
+
+                <!-- Servicio 3 -->
+
+                <article class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-blue-500 transition">
+
+                    <div class="text-4xl mb-4">
+                        📈
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Automatización de ventas
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Captura oportunidades comerciales y orienta
+                        a tus clientes hacia los productos o servicios adecuados.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================== -->
+    <!-- 3. SECCIÓN GALERÍA -->
+    <!-- ================================================== -->
+
     <section id="galeria" class="bg-gray-950 py-20 px-6">
 
         <div class="max-w-6xl mx-auto">
@@ -125,30 +220,45 @@
                 </span>
 
                 <h2 class="text-3xl md:text-4xl font-bold mt-3">
-                    Galería de <span class="text-blue-400">Chatbots</span>
+
+                    Galería de
+
+                    <span class="text-blue-400">
+                        Chatbots
+                    </span>
+
                 </h2>
 
                 <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
-                    Descubre algunas ideas de soluciones digitales
-                    para automatizar la atención al cliente de tu negocio.
+
+                    Descubre ideas de soluciones digitales para
+                    automatizar la atención al cliente y mejorar
+                    los procesos de tu negocio.
+
                 </p>
 
             </div>
 
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <!-- GALERÍA 1 -->
-                <div class="bg-gray-900 rounded-2xl overflow-hidden
-                            border border-gray-800 hover:border-blue-500
-                            transition duration-300">
+                <!-- Galería 1 -->
+
+                <article class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-blue-500 transition duration-300">
 
                     <img
                         src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=800&q=80"
-                        alt="Inteligencia artificial y chatbot"
+                        alt="Inteligencia artificial y tecnología"
+                        loading="lazy"
                         class="w-full h-56 object-cover">
 
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">
+
+                        <span class="text-blue-400 text-sm font-semibold">
+                            INTELIGENCIA ARTIFICIAL
+                        </span>
+
+                        <h3 class="text-xl font-bold mt-2 mb-3">
                             Chatbots inteligentes
                         </h3>
 
@@ -156,22 +266,29 @@
                             Asistentes virtuales que ayudan a responder
                             preguntas y mejorar la atención al cliente.
                         </p>
+
                     </div>
 
-                </div>
+                </article>
 
-                <!-- GALERÍA 2 -->
-                <div class="bg-gray-900 rounded-2xl overflow-hidden
-                            border border-gray-800 hover:border-blue-500
-                            transition duration-300">
+
+                <!-- Galería 2 -->
+
+                <article class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-blue-500 transition duration-300">
 
                     <img
                         src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=80"
-                        alt="Equipo trabajando en soluciones digitales"
+                        alt="Equipo trabajando en soluciones empresariales"
+                        loading="lazy"
                         class="w-full h-56 object-cover">
 
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">
+
+                        <span class="text-blue-400 text-sm font-semibold">
+                            PRODUCTIVIDAD
+                        </span>
+
+                        <h3 class="text-xl font-bold mt-2 mb-3">
                             Automatización empresarial
                         </h3>
 
@@ -179,22 +296,29 @@
                             Soluciones digitales para optimizar procesos
                             y aumentar la productividad de las empresas.
                         </p>
+
                     </div>
 
-                </div>
+                </article>
 
-                <!-- GALERÍA 3 -->
-                <div class="bg-gray-900 rounded-2xl overflow-hidden
-                            border border-gray-800 hover:border-blue-500
-                            transition duration-300">
+
+                <!-- Galería 3 -->
+
+                <article class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-blue-500 transition duration-300">
 
                     <img
                         src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
                         alt="Tecnología y comunicación digital"
+                        loading="lazy"
                         class="w-full h-56 object-cover">
 
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">
+
+                        <span class="text-blue-400 text-sm font-semibold">
+                            COMUNICACIÓN
+                        </span>
+
+                        <h3 class="text-xl font-bold mt-2 mb-3">
                             Atención digital
                         </h3>
 
@@ -202,18 +326,23 @@
                             Herramientas que facilitan la comunicación
                             entre los negocios y sus clientes.
                         </p>
+
                     </div>
 
-                </div>
+                </article>
 
             </div>
 
+
             <div class="text-center mt-12">
+
                 <a href="#precios"
-                   class="inline-block bg-blue-600 hover:bg-blue-700
-                          px-8 py-3 rounded-lg font-semibold transition">
+                   class="inline-block bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition">
+
                     Conocer nuestros planes
+
                 </a>
+
             </div>
 
         </div>
@@ -221,26 +350,41 @@
     </section>
 
 
-    <!-- ================= PRECIOS ================= -->
-    <section id="precios" class="py-20 px-6">
+    <!-- ================================================== -->
+    <!-- 4. SECCIÓN PRECIOS -->
+    <!-- ================================================== -->
+
+    <section id="precios" class="bg-gray-900 py-20 px-6">
 
         <div class="max-w-6xl mx-auto">
 
-            <h2 class="text-3xl md:text-4xl font-bold text-center">
-                Planes y precios
-            </h2>
+            <div class="text-center mb-12">
 
-            <p class="text-gray-400 text-center mt-4 mb-12">
-                Elige el plan ideal para automatizar tu negocio.
-            </p>
+                <span class="text-blue-400 font-semibold">
+                    PLANES PARA TU NEGOCIO
+                </span>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-3">
+                    Planes y precios
+                </h2>
+
+                <p class="text-gray-400 mt-4">
+                    Elige el plan que mejor se adapte a tus necesidades.
+                </p>
+
+            </div>
+
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                <!-- PLAN BÁSICO -->
-                <div class="bg-gray-900 border border-gray-700
-                            p-8 rounded-2xl">
 
-                    <h3 class="text-xl font-bold">Básico</h3>
+                <!-- PLAN BÁSICO -->
+
+                <article class="bg-gray-950 border border-gray-700 p-8 rounded-2xl">
+
+                    <h3 class="text-xl font-bold">
+                        Básico
+                    </h3>
 
                     <p class="text-gray-400 mt-2">
                         Ideal para pequeños negocios.
@@ -248,39 +392,42 @@
 
                     <p class="text-4xl font-bold mt-6">
                         Bs 199
+
                         <span class="text-sm text-gray-400 font-normal">
                             /mes
                         </span>
                     </p>
 
                     <ul class="mt-8 space-y-4 text-gray-300">
+
                         <li>✓ Chatbot de preguntas frecuentes</li>
                         <li>✓ Configuración inicial</li>
                         <li>✓ Atención automatizada básica</li>
                         <li>✓ Soporte por correo</li>
+
                     </ul>
 
                     <a href="#contacto"
-                       class="block text-center mt-8 border
-                              border-blue-500 text-blue-400
-                              hover:bg-blue-600 hover:text-white
-                              py-3 rounded-lg">
+                       class="block text-center mt-8 border border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white py-3 rounded-lg transition">
+
                         Elegir plan
+
                     </a>
 
-                </div>
+                </article>
 
 
                 <!-- PLAN PROFESIONAL -->
-                <div class="bg-gray-900 border-2 border-blue-500
-                            p-8 rounded-2xl relative shadow-xl">
 
-                    <span class="inline-block bg-blue-600 px-4 py-1
-                                 rounded-full text-sm mb-4">
+                <article class="bg-gray-950 border-2 border-blue-500 p-8 rounded-2xl relative shadow-xl shadow-blue-900/10">
+
+                    <span class="inline-block bg-blue-600 px-4 py-1 rounded-full text-sm mb-4">
                         Más popular
                     </span>
 
-                    <h3 class="text-xl font-bold">Profesional</h3>
+                    <h3 class="text-xl font-bold">
+                        Profesional
+                    </h3>
 
                     <p class="text-gray-400 mt-2">
                         Para empresas en crecimiento.
@@ -288,34 +435,39 @@
 
                     <p class="text-4xl font-bold mt-6">
                         Bs 399
+
                         <span class="text-sm text-gray-400 font-normal">
                             /mes
                         </span>
                     </p>
 
                     <ul class="mt-8 space-y-4 text-gray-300">
+
                         <li>✓ Todo lo incluido en Básico</li>
                         <li>✓ Conversaciones personalizadas</li>
                         <li>✓ Captura de clientes potenciales</li>
                         <li>✓ Integración con formularios</li>
                         <li>✓ Soporte prioritario</li>
+
                     </ul>
 
                     <a href="#contacto"
-                       class="block text-center mt-8 bg-blue-600
-                              hover:bg-blue-700 py-3 rounded-lg
-                              font-semibold">
+                       class="block text-center mt-8 bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-semibold transition">
+
                         Elegir plan
+
                     </a>
 
-                </div>
+                </article>
 
 
                 <!-- PLAN EMPRESARIAL -->
-                <div class="bg-gray-900 border border-gray-700
-                            p-8 rounded-2xl">
 
-                    <h3 class="text-xl font-bold">Empresarial</h3>
+                <article class="bg-gray-950 border border-gray-700 p-8 rounded-2xl">
+
+                    <h3 class="text-xl font-bold">
+                        Empresarial
+                    </h3>
 
                     <p class="text-gray-400 mt-2">
                         Para empresas con necesidades avanzadas.
@@ -323,30 +475,33 @@
 
                     <p class="text-4xl font-bold mt-6">
                         Bs 799
+
                         <span class="text-sm text-gray-400 font-normal">
                             /mes
                         </span>
                     </p>
 
                     <ul class="mt-8 space-y-4 text-gray-300">
+
                         <li>✓ Todo lo incluido en Profesional</li>
                         <li>✓ Flujos avanzados de conversación</li>
                         <li>✓ Integraciones personalizadas</li>
                         <li>✓ Reportes de rendimiento</li>
                         <li>✓ Asesoramiento especializado</li>
+
                     </ul>
 
                     <a href="#contacto"
-                       class="block text-center mt-8 border
-                              border-blue-500 text-blue-400
-                              hover:bg-blue-600 hover:text-white
-                              py-3 rounded-lg">
+                       class="block text-center mt-8 border border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white py-3 rounded-lg transition">
+
                         Contactar ventas
+
                     </a>
 
-                </div>
+                </article>
 
             </div>
+
 
             <p class="text-gray-500 text-sm text-center mt-8">
                 Precios ilustrativos en bolivianos. Los servicios,
@@ -358,39 +513,388 @@
     </section>
 
 
-    <!-- ================= CONTACTO ================= -->
-    <section id="contacto" class="bg-blue-700 text-center py-16 px-6">
+    <!-- ================================================== -->
+    <!-- 5. SECCIÓN MODELO DE NEGOCIO CANVAS -->
+    <!-- ================================================== -->
 
-        <h2 class="text-3xl font-bold">
-            ¿Listo para automatizar tu negocio?
-        </h2>
+    <section id="canvas" class="bg-gray-950 py-20 px-6">
 
-        <p class="mt-4 text-blue-100">
-            Encuentra el chatbot ideal para tu empresa.
-        </p>
+        <div class="max-w-7xl mx-auto">
 
-        <a href="mailto:ventas@chatbotpro.com"
-           class="inline-block mt-8 bg-white text-blue-700
-                  hover:bg-gray-200 px-8 py-3 rounded-lg font-bold">
-            Solicitar información
-        </a>
+
+            <!-- Encabezado Canvas -->
+
+            <div class="text-center mb-12">
+
+                <span class="text-blue-400 font-semibold">
+                    NUESTRA ESTRATEGIA
+                </span>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-3">
+
+                    Modelo de negocio
+
+                    <span class="text-blue-400">
+                        Canvas
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-400 mt-4 max-w-3xl mx-auto">
+
+                    Descubre cómo ChatbotPro crea, entrega y captura valor
+                    mediante soluciones de automatización e inteligencia artificial.
+
+                </p>
+
+            </div>
+
+
+            <!-- Bloques del modelo Canvas -->
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+
+
+                <!-- 1. SOCIOS CLAVE -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        🤝
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        1. Socios clave
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Proveedores de IA</li>
+                        <li>• Plataformas de mensajería</li>
+                        <li>• Proveedores de alojamiento web</li>
+                        <li>• Desarrolladores tecnológicos</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 2. ACTIVIDADES CLAVE -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        ⚙️
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        2. Actividades clave
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Desarrollo de chatbots</li>
+                        <li>• Configuración de conversaciones</li>
+                        <li>• Integración de sistemas</li>
+                        <li>• Mantenimiento y soporte</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 3. PROPUESTA DE VALOR -->
+
+                <article class="bg-gray-900 border border-blue-500 rounded-xl p-5 shadow-lg shadow-blue-900/10">
+
+                    <div class="text-3xl mb-3">
+                        💎
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        3. Propuesta de valor
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Atención automatizada</li>
+                        <li>• Respuestas rápidas</li>
+                        <li>• Disponibilidad según configuración</li>
+                        <li>• Reducción de tareas repetitivas</li>
+                        <li>• Soluciones personalizadas</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 4. RELACIÓN CON CLIENTES -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        💬
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        4. Relación con clientes
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Asesoramiento personalizado</li>
+                        <li>• Soporte técnico</li>
+                        <li>• Capacitación inicial</li>
+                        <li>• Seguimiento del servicio</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 5. SEGMENTOS DE CLIENTES -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        🎯
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        5. Segmentos de clientes
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Pequeñas y medianas empresas</li>
+                        <li>• Tiendas virtuales</li>
+                        <li>• Restaurantes</li>
+                        <li>• Emprendedores</li>
+                        <li>• Empresas de servicios</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 6. RECURSOS CLAVE -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        🧠
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        6. Recursos clave
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Plataforma tecnológica</li>
+                        <li>• Herramientas de IA</li>
+                        <li>• Personal especializado</li>
+                        <li>• Infraestructura informática</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 7. CANALES -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        🌐
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        7. Canales
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Página web</li>
+                        <li>• Redes sociales</li>
+                        <li>• Correo electrónico</li>
+                        <li>• Reuniones comerciales</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 8. ESTRUCTURA DE COSTOS -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        💰
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        8. Estructura de costos
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Servicios de IA</li>
+                        <li>• Alojamiento web</li>
+                        <li>• Desarrollo y mantenimiento</li>
+                        <li>• Marketing y publicidad</li>
+                        <li>• Soporte técnico</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- 9. FUENTES DE INGRESOS -->
+
+                <article class="bg-gray-900 border border-gray-800 hover:border-blue-500 rounded-xl p-5 transition">
+
+                    <div class="text-3xl mb-3">
+                        📈
+                    </div>
+
+                    <h3 class="text-lg font-bold text-blue-400 mb-3">
+                        9. Fuentes de ingresos
+                    </h3>
+
+                    <ul class="text-gray-300 text-sm space-y-2">
+
+                        <li>• Suscripciones mensuales</li>
+                        <li>• Configuración inicial</li>
+                        <li>• Desarrollo personalizado</li>
+                        <li>• Mantenimiento</li>
+                        <li>• Integraciones especiales</li>
+
+                    </ul>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- Resumen del modelo de negocio -->
+
+            <div class="mt-12 bg-gray-900 border border-gray-800 rounded-2xl p-8 text-center">
+
+                <div class="text-4xl mb-4">
+                    🚀
+                </div>
+
+                <h3 class="text-2xl font-bold mb-4">
+                    ¿Cómo generamos valor?
+                </h3>
+
+                <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
+
+                    ChatbotPro ofrece soluciones de automatización a empresas
+                    que desean mejorar su atención al cliente. Generamos ingresos
+                    mediante suscripciones y servicios personalizados, mientras
+                    gestionamos los costos de tecnología, desarrollo y soporte.
+
+                </p>
+
+                <a href="#precios"
+                   class="inline-block mt-6 bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition">
+
+                    Ver nuestros planes
+
+                </a>
+
+            </div>
+
+        </div>
 
     </section>
 
 
-    <!-- ================= FOOTER ================= -->
-    <footer class="bg-gray-950 text-center text-gray-500 py-6">
+    <!-- ================================================== -->
+    <!-- 6. SECCIÓN CONTACTO -->
+    <!-- ================================================== -->
 
-        <p>
-            &copy; 2026 ChatbotPro. Todos los derechos reservados.
+    <section id="contacto" class="bg-blue-700 text-center py-16 px-6">
+
+        <div class="max-w-3xl mx-auto">
+
+            <span class="text-blue-200 font-semibold">
+                HABLEMOS DE TU PROYECTO
+            </span>
+
+            <h2 class="text-3xl md:text-4xl font-bold mt-3">
+
+                ¿Listo para automatizar tu negocio?
+
+            </h2>
+
+            <p class="mt-4 text-blue-100 leading-relaxed">
+
+                Encuentra el chatbot ideal para tu empresa y descubre
+                nuevas oportunidades para mejorar tu atención al cliente.
+
+            </p>
+
+            <a href="mailto:ventas@chatbotpro.com?subject=Consulta%20sobre%20chatbots"
+               class="inline-block mt-8 bg-white text-blue-700 hover:bg-gray-200 px-8 py-3 rounded-lg font-bold transition">
+
+                Solicitar información
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================== -->
+    <!-- 7. FOOTER / PIE DE PÁGINA -->
+    <!-- ================================================== -->
+
+    <footer class="bg-gray-950 border-t border-gray-800 text-center text-gray-500 py-8 px-6">
+
+        <a href="#inicio" class="text-xl font-bold text-blue-400">
+            ChatbotPro
+        </a>
+
+        <p class="mt-3 text-sm">
+            Soluciones inteligentes para tu negocio.
         </p>
 
-        <p class="text-sm mt-2">
-            Soluciones digitales para tu negocio.
+        <div class="flex justify-center flex-wrap gap-5 mt-5 text-sm">
+
+            <a href="#servicios" class="hover:text-blue-400">
+                Servicios
+            </a>
+
+            <a href="#galeria" class="hover:text-blue-400">
+                Galería
+            </a>
+
+            <a href="#precios" class="hover:text-blue-400">
+                Precios
+            </a>
+
+            <a href="#canvas" class="hover:text-blue-400">
+                Modelo Canvas
+            </a>
+
+            <a href="#contacto" class="hover:text-blue-400">
+                Contacto
+            </a>
+
+        </div>
+
+        <p class="mt-6 text-sm">
+            &copy; 2026 ChatbotPro. Todos los derechos reservados.
         </p>
 
     </footer>
 
 </body>
+
 </html>
 ```
